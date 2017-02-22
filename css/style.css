@@ -1,9 +1,9 @@
 h1	{
-	color: #1FFFB5;
+	color: #1f15d8;
 /*	text-align: center;*/
 }
 h2	{
-	color: #FFDF56;
+	color: #1f15d8;
 /*	text-align: center;*/
 }
 p 	{
@@ -12,6 +12,7 @@ p 	{
 
 body {
 	text-align: center;
+	background-color: #c4c2c6;
 }
 button {
 	display: none;
