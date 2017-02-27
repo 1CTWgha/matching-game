@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function (){
 		if (cardsInPlay.length === 2) {//this is when the pair of cards has been selected so that we may do the match. After this occurs the button is made visible
 
 			if (isMatch(cardsInPlay)) {
-				document.getElementById('message').innerHTML = "Congrads, it's a match!"//Insert this string if isMatch() function is true
+				document.getElementById('message').innerHTML = "Congrats, it's a match!"//Insert this string if isMatch() function is true
 			} else {
 				document.getElementById('message').innerHTML = "Sorry, it's not a match!"//Insert this string if isMatch() function is false
 			}
